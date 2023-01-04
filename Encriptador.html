@@ -106,24 +106,24 @@
 
     function revelarOcular(revelar, ocultar){
         var txtResultado = document.querySelector("textarea.resultado");
-        txtResultado.style.visibility = revelar;
+        txtResultado.style.display = revelar;
         var btnCopiar = document.querySelector("button.copiar");
-        btnCopiar.style.visibility = revelar;
+        btnCopiar.style.display = revelar;
         var imgMuneco = document.querySelector("img.muneco");
-        imgMuneco.style.visibility = ocultar;
+        imgMuneco.style.display = ocultar;
         var lblEtiqueta1 = document.querySelector("label.etiquetasVacio");
-        lblEtiqueta1.style.visibility=ocultar;
+        lblEtiqueta1.style.display = ocultar;
         var lblEtiqueta2 = document.querySelector("label#ingresaTexto");
-        lblEtiqueta2.style.visibility=ocultar;
+        lblEtiqueta2.style.display = ocultar;
     }
 
     function revelarContenido(){
-        revelarOcular("visible","hidden");
+        revelarOcular("inherit","none");
     }
 
     function ocultarContenido(){
         copiarTexto();
-        revelarOcular("hidden", "visible");
+        revelarOcular("none", "inherit");
     }
 
     function copiarTexto(){
