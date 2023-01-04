@@ -162,6 +162,9 @@ html{
 
     .muneco{
         display: none;
+        visibility: hidden;
+        position: relative;
+        width: 0%;
     }
 
     #ningunMensaje{
