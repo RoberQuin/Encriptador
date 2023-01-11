@@ -193,18 +193,23 @@ html{
 @media screen and (max-width:415px) {
     .entradaTexto{
         width: 90%;
-        top: 10%;
-        height: 58%;
+        height: 53%;
         left: 5%;
     }
 
     .etiquetaAviso{
         top: 70%;
+        font-size: 84%;
     }
 
     .botones{
         width: 80%;
         top: 73%;
+    }
+
+    .botones button{
+        width: 38%;
+        font-size: 14px;
     }
 
     .salidaTexto{
