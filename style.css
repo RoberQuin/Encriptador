@@ -137,7 +137,7 @@ html{
     display: none;
 }
 
-@media screen and (max-width:912px) /*and (min-width:415px)*/ {
+@media screen and (max-width:912px) and (min-width:415px) {
     .entradaTexto{
         width: 65%;
         top: 10%;
@@ -191,5 +191,55 @@ html{
 }
 
 @media screen and (max-width:415px) {
-    
+    .entradaTexto{
+        width: 90%;
+        top: 10%;
+        height: 58%;
+        left: 5%;
+    }
+
+    .etiquetaAviso{
+        top: 70%;
+    }
+
+    .botones{
+        width: 80%;
+        top: 73%;
+    }
+
+    .salidaTexto{
+        width: 77%;
+        left: 10%;
+        top: 83%;
+        height: fit-content;
+    }
+
+    .muneco{
+        display: none;
+        visibility: hidden;
+        position: relative;
+        width: 0%;
+    }
+
+    #ningunMensaje{
+        margin: 5% 0 0 0;
+    }
+
+    #ingresaTexto{
+        margin: 0 0 5%;
+    }
+
+    .copiar{
+        position: relative;
+        width: 85%;
+        height: 75px;
+        left: 10%;
+        margin: 0 0 5%;
+    }
+
+    .resultado{
+        margin: 5%;
+        width: 89%;
+        height: 10em;
+    }
 }
